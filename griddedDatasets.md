@@ -8,7 +8,7 @@ We are currently working on the following:
 
 Environmental researchers commonly need to access slices of array-oriented datasets for their analysis. For example, climate data are commonly distributed in large gridded file formats which individuals must then partition in order to obtain spatial subsets and/or temporal averages. At present, most researchers build loops to search through the grid stack in ways that tend to be slow, memory intensive and limiting to creative exploration of the data.
 
-This project aims to investigate a suite of new software tools currently available to perform rapid analytics on array-oriented datasets. We are focusing on a new Python libraries called [xray] (http://xray.readthedocs.org/en/stable/) which extends [pandas] (http://pandas.pydata.org/) data structures to multiple dimensions. Used in combination with [dask] (http://dask.pydata.org/en/latest/), we are able to perform parallel computing on datasets too large for in-memory computation, but small enough for processing on a standard laptop. We also are investigating [geopandas] (http://geopandas.org/) as a way of enabling geospatial functionality within the pandas framework, as well as Google Earth Engine for cloud-based processing of climate and satellite imagery.
+This project aims to investigate a suite of new software tools currently available to perform rapid analytics on array-oriented datasets. We are focusing on a new Python libraries called [xray] (http://xray.readthedocs.org/en/stable/) which extends [pandas] (http://pandas.pydata.org/) data structures to multiple dimensions. Used in combination with [dask] (http://dask.pydata.org/en/latest/), we are able to perform parallel computing on datasets too large for in-memory computation, but small enough for processing on a standard laptop. We also are investigating [geopandas] (http://geopandas.org/) as a way of enabling geospatial functionality within the pandas framework, as well as [Google Earth Engine] (https://earthengine.google.org) for cloud-based processing of climate and satellite imagery.
 
 ![array graphic](/arrayGraphic.jpg)
 
@@ -18,7 +18,7 @@ Our goal is to determine best practices for implementing the xray/dask libraries
 
 *[Anthony Arendt] (http://psc.apl.uw.edu/people/investigators/anthony-arendt/)
 *[Jake Vanderplas] (http://www.astro.washington.edu/users/vanderplas/research.html)
-*[Ben Hudson] (http://psc.apl.uw.edu/people/post-docs/ben-hudson/)
+*[Ben Hudson] (http://psc.apl.uw.edu/people/post-docs/ben-hudson/) (Polar Science Center)
 
 ## Open source relational databases
 
@@ -31,5 +31,5 @@ We are working to implement relation databases as a standard tool for environmen
 ### Project participants:
 
 *[Anthony Arendt] (http://psc.apl.uw.edu/people/investigators/anthony-arendt/)
-*[Christian Kienholz] (http://glaciers.gi.alaska.edu/people/kienholz)
+*[Christian Kienholz] (http://glaciers.gi.alaska.edu/people/kienholz) (University of Alaska Fairbanks)
  
