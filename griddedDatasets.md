@@ -14,12 +14,6 @@ This project aims to investigate a suite of new software tools currently availab
 
 Our goal is to determine best practices for implementing the xray/dask libraries to analyze gridded climate data and hydrological runoff output associated with several ongoing research initiatives. In particular, we have just received [Azure for Research] (http://research.microsoft.com/en-us/projects/azure/cdi.aspx) support to explore the development of tools to address climate change. 
 
-### Project participants:
-
-*[Anthony Arendt] (http://psc.apl.uw.edu/people/investigators/anthony-arendt/)
-*[Jake Vanderplas] (http://www.astro.washington.edu/users/vanderplas/research.html)
-*[Ben Hudson] (http://psc.apl.uw.edu/people/post-docs/ben-hudson/) (Polar Science Center)
-
 ## Open source relational databases
 
 [PostgreSQL] (http://www.postgresql.org/) is a popular enterprise level relational database. When combined with the [PostGIS] (http://postgis.net/) extension, this provides a powerful set of tools for handling geospatial data encoded using the vector data model (points, lines and polygons). This software combination can act as a backend to commercial GIS packages, and interfaces particularly well with the open source [QGIS] (http://www.qgis.org) package.
@@ -31,5 +25,7 @@ We are working to implement relation databases as a standard tool for environmen
 ### Project participants:
 
 *[Anthony Arendt] (http://psc.apl.uw.edu/people/investigators/anthony-arendt/)
+*[Ben Hudson] (http://psc.apl.uw.edu/people/post-docs/ben-hudson/) (Polar Science Center)
 *[Christian Kienholz] (http://glaciers.gi.alaska.edu/people/kienholz) (University of Alaska Fairbanks)
+*[Jake Vanderplas] (http://www.astro.washington.edu/users/vanderplas/research.html)
  
