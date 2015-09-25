@@ -6,6 +6,8 @@ This project aims to develop lightweight computational data systems aimed at ena
 
 ![API Graphic](/apiGraphic.JPG)
 
+This graphic illustrates the framework of our 'ice2ocean' API. We run our backend components on a Microsoft Azure Linux virtual machine, which hosts our PostgreSQL relational database and output from an energy balance snow runoff model. Clients can make calls through the API to access our field and airborne observations, associated metadata, as well as gridded maps of model output such as precipitation and runoff. These data can be served to any number of web clients.
+
 ## Project participants:
 
 *[Rob Fatland] (http://www.robfatland.net/)
